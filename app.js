@@ -1,6 +1,6 @@
 document.querySelector('#search').addEventListener('submit', async (event) => {
     event.preventDefault();
-
+// QuerySelector é um DOM que serve para selecionar um elemento do documento HTML que corresponda a um seletor CSS informado. No caso ID dado pelo simbolo #. Oq é estranho pq ele pegao elemento pelo css e não pelo html
     const cityName = document.querySelector('#city_name').value;
 
     if (!cityName) {
@@ -39,6 +39,8 @@ document.querySelector('#search').addEventListener('submit', async (event) => {
             <img src="src/images/404.svg"/>
         `)
     }
+
+    // não add imagem por preguiça :p
 });
 
 function showInfo(json){
