@@ -148,7 +148,7 @@ body {
 }
 
 header {
-    
+    width: 100%;
     padding: 5px;
     font-size: 30px;
     font-weight: bold;
@@ -157,6 +157,8 @@ header {
 }
 
 footer {
-    padding: 5px;
+    padding: 11.5px;
+    width: 100%;
+    margin-top: 6%;
     background-color: #f0f8ff;
 }
