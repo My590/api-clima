@@ -9,7 +9,7 @@ document.querySelector('#search').addEventListener('submit', async (event) => {
         return;
     }
 
-    const apiKey = '4c3172f96532a6fe19bba3369db9cf46';
+    const apiKey = '#';
 
     // encodeURI é para a API aceitar acentos
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(cityName)}&appid=${apiKey}&units=metric&lang=pt_br`
